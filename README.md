@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TheReal Modder Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0d0d0d;
+      color: #00ff99;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #00ff99;
+    }
+    .mod-card {
+      background: #1a1a1a;
+      border: 1px solid #00ff99;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem 0;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 0 10px #00ff9933;
+    }
+    .mod-card a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+    .footer a {
+      color: #ff66cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>☭ TheReal Modder Hub </h1>
+
+  <div class="mod-card">
+    <h2>Sample Mod 1</h2>
+    <p>A cool mod that does awesome stuff. Compatible with v1.0+</p>
+    <a href="#">Download</a>
+  </div>
+
+  <div class="mod-card">
+    <h2>Sample Mod 2</h2>
+    <p>Another powerful tool from TheReal Modder. Check it out!</p>
+    <a href="#">Download</a>
+  </div>
+
+  <div class="footer">
+    Telegram: <a href="https://t.me/YourUsername" target="_blank">@YourUsername</a>
+  </div>
+</body>
+</html>
